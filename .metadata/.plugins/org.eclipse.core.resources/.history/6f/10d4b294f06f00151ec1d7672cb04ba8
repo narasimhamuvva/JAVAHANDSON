@@ -1,0 +1,19 @@
+
+public class Animal {
+	
+	String family="Animal";
+
+}
+class Fish extends Animal{
+	String habitat="Water";
+	String type="Aquatic";
+	
+}
+class Shark extends Fish{
+	String kind="Shark";
+public void display()
+{
+	System.out.println(kind+"is an"+family+"which lives in"+habitat+"hence it is"+"\t"+type);
+}
+
+}

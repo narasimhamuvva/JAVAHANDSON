@@ -1,0 +1,65 @@
+
+import java.util.Scanner;
+public class Percentage {
+	
+	
+	public  void calculation(int mmarks,int emarks,int hmarks,int smarks,int somarks,int total)
+	{
+		int gmarks;
+		double percentage;
+		gmarks=mmarks+emarks+hmarks+smarks+somarks;
+		percentage=((gmarks*100)/total);
+	   System.out.println("percentage="+percentage);
+	   if(percentage<40)
+	   {
+		   System.out.println("poor");
+	   }
+	   
+	   else if(percentage>40 && percentage<=59)
+	   {
+		   System.out.println("average");
+	   }
+	   
+	   else if(percentage>59 && percentage<=79)
+	   {
+		   System.out.println("good");
+	   }
+	   
+	   else if(percentage>79 && percentage<=89)
+	   {
+		   System.out.println("verygood");
+	   }
+	   else 
+	   {
+		   System.out.println("excellent");
+	   }
+	   }
+	
+	public static void main(String args[]){
+		
+		Percentage pe=new Percentage();
+		
+        Scanner sc = new Scanner(System.in);
+        int mmarks;int emarks;int hmarks;int smarks;int somarks;int total;
+        System.out.println("Enter all marks btween 0 -100 ");
+		System.out.println("Enter mathematics marks : ");
+		mmarks = sc.nextInt();
+		if(mmarks<0 || mmarks>100)
+		{
+			System.out.println("Please Enter mathematics marks again : ");
+			mmarks = sc.nextInt();	
+		}
+		System.out.println("Enter english  marks : ");
+		emarks = sc.nextInt();
+		System.out.println("Enter hindi marks : ");
+		hmarks = sc.nextInt();
+		System.out.println("Enter science marks : ");
+		smarks = sc.nextInt();
+		System.out.println("Enter social marks : ");
+		somarks = sc.nextInt();
+		System.out.println("Enter total marks : ");
+		total = sc.nextInt();
+		pe.calculation(mmarks,emarks,hmarks,smarks,somarks,total);
+	}
+
+}

@@ -1,0 +1,34 @@
+
+public class Constructor {
+	
+	float number;
+	int z;
+	
+	public Constructor(int x)
+	{
+		z=(int)number;
+		z=x;
+	}
+	public Constructor(float y)
+	{
+		number=y;
+	}
+	public Constructor()
+	{
+	}
+	void display()
+	{
+		System.out.println("the number is:"+number);
+	}
+	
+public static void main(String args[]){
+	Constructor c=new Constructor();
+	Constructor c1=new Constructor(50);
+	Constructor c2=new Constructor(50.78f);
+	c.display();
+	c1.display();
+	c2.display();
+}
+
+
+}

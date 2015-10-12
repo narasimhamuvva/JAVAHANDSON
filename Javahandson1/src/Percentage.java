@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Percentage {
 	
-	
+	//pull request
 	public  void calculation(int mmarks,int emarks,int hmarks,int smarks,int somarks,int total)
 	{
 		int gmarks;

@@ -4,7 +4,7 @@ public class Numbers {
 	
 public int brucenumber;
 public int michealnumber;
-
+//random used
 public void compare()
 {
 	Random rand=new Random();

@@ -1,0 +1,23 @@
+package Test;
+
+public class ShoppingCart {
+	Products [ ] products;
+	int i=0;
+	public ShoppingCart()
+	{
+		products= new Products[10];
+	}
+	public void additem(Products products)
+	{
+		products[i++]=products;
+	}
+	public void empty()
+	{
+		
+	}
+	public Object getItemCount()
+	{
+		return i;
+	}
+
+}

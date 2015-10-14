@@ -1,0 +1,11 @@
+import junit.framework.Test;
+
+
+public class shoppingCartTest {
+	public static Test suite() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

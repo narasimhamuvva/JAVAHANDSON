@@ -1,0 +1,22 @@
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+
+public class UnitTesting extends TestCase {
+	
+	protected void setUp()
+	{
+		
+		
+	}
+//	Inheritance inrt = new Inheritance();
+	Animal s  = new Animal();
+	@Test
+	public void test() {
+		assertEquals(s.family, "Animal");
+	
+	}
+
+}

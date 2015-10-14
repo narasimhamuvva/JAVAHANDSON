@@ -1,0 +1,9 @@
+package Test;
+
+public class Products {
+	public Product(String name,Double d)
+	{
+		
+	}
+
+}

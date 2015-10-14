@@ -1,0 +1,8 @@
+
+public class Values {
+	
+private int id;
+private String joke;
+
+
+}

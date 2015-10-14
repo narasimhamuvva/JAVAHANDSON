@@ -1,0 +1,11 @@
+import junit.framework.Test;
+
+
+public class CreditCardTestSuite {
+
+	public static Test suite() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

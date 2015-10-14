@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class UnitTest {
+	Percentage p= new Percentage();
+
+	@Test
+	public void test() {
+		assertEquals(p.calculation(90, 90, 90, 90, 90, 90),90 );
+	}
+
+
+}

@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class UnitTesting {
+//	Inheritance inrt = new Inheritance();
+	Animal s  = new Animal();
+	@Test
+	public void test() {
+		assertEquals(s.family, "Animal");
+	
+	}
+
+}

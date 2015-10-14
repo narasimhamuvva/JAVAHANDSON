@@ -1,0 +1,14 @@
+
+import junit.framework.TestCase;
+
+
+public class ExampleTest  extends TestCase{
+	private ExampleTest Cart;
+	private Product book1;
+	protected void setUp()
+	{
+		cart =new ExampleTest();
+	}
+	
+
+}

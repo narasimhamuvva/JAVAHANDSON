@@ -13,7 +13,7 @@ public static void main(String args[])
 {
 	Overloding ov= new Overloding();
 	ov.multiply(4.6f, 6.7f);
-	ov.multiply(9, 10);
+	ov.multiply(10, 10);
 	
 
 }

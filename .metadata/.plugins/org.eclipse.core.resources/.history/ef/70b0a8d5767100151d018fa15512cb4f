@@ -1,0 +1,11 @@
+import java.util.List;
+
+import com.google.gson.Gson;
+
+
+public class Jsonproject {
+	
+	private List<Values> values;
+	   
+	Gson gson = new Gson(); 
+	}

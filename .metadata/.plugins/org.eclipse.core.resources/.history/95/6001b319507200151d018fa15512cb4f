@@ -1,0 +1,15 @@
+package Test;
+
+public class ShoppingCart {
+	Products [ ] Products;
+	int i=0;
+	public ShoppingCart()
+	{
+		Products =new Products[10];
+	}
+	public void additem(Products Products)
+	{
+		Products[i++]=Products;
+	}
+
+}

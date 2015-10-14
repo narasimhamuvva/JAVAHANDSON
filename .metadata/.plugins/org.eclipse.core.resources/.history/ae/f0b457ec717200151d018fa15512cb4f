@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class UnitTest {
+	Percentage p= new Percentage();
+
+	@Test
+	public void test() {
+		assertEquals(p.display(1), "you have selected card 1");
+	}
+
+}

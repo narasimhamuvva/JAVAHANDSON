@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class TestMyCaculator {
+
+	@Test
+	public void test() {
+		Calculator calc=new Calculator();
+		calc.add(2,2);
+	}
+
+}

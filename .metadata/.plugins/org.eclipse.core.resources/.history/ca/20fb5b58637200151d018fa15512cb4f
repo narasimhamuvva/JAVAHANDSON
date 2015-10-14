@@ -1,0 +1,23 @@
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+
+public class Unittest extends TestCase {
+	Switchclass s = new Switchclass();
+	/*protected void setUp()
+	{
+		s  = new Shark();
+	}*/
+	
+	@Test
+	public void test() {
+		
+		assertEquals(s.kind, "Shark");
+	
+	}
+
+}
+public class Unittest {
+
+}

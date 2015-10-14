@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class UnitTesting {
+	Shark s  = new Shark("Shark");
+	@Test
+	public void test() {
+		System.out.println(s.kind);
+		
+		assertEquals(s.kind, "Shark");
+	
+	}
+
+}

@@ -1,0 +1,10 @@
+package Test;
+import junit.framework.Test;
+
+public class CreditCardTestSuite {
+	public static Test suite()
+	{
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+import junit.framework.TestCase;
+
+
+public class ExampleTest  extends TestCase{
+	private ExampleTest Cart;
+	private Product book1;
+	protected void setUp()
+	{
+		Cart =new ExampleTest();
+		book1 = new Product("unit testing",29.95);
+	}
+	
+	
+
+}

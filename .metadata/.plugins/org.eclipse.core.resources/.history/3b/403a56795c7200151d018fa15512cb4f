@@ -1,0 +1,17 @@
+package Test;
+import junit.framework.TestCase;
+
+public class ShoppingCartTest extends TestCase {
+	private ShoppingCart cart;
+	protected void setUp()
+	{
+		cart=new ShoppingCart();
+		new Products("Pragmatic Unit Testing",29.95);
+	}
+	public void testEmpty()
+	{
+		cart.empty();
+		assertEquals(cart.getItemCount(),1);
+	}
+
+}

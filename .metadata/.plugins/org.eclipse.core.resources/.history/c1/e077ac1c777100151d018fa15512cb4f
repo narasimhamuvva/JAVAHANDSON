@@ -1,0 +1,15 @@
+import java.util.List;
+
+import com.google.gson.Gson;
+
+
+public class Jsonproject {
+	
+	private List<Values> values;
+	   
+	Gson gson = new Gson(); 
+	public static void main(String args[]){
+		Object response;
+		Jsonproject jc = g.fromJson(response, Jsonproject.class);
+	}
+	}

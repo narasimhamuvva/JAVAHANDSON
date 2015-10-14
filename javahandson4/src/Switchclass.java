@@ -1,12 +1,13 @@
 import java.util.Scanner;
 public class Switchclass {
-	public void display(int cardnumber)
+	public String display(int cardnumber)
 	{
 switch(cardnumber)
 {
 case 1:
 	System.out.println("you have selected card 1");
-	break;
+	return("you have selected card 1");
+	
 case 2:
 	System.out.println("you have selected card 2");
 	break;
@@ -38,6 +39,7 @@ default:
 	System.out.println("please select card between 1 to 10");
 	
 }
+return null;
 }
 public static void main(String args[])
 {

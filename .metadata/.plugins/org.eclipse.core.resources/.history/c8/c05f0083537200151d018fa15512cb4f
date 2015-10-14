@@ -1,0 +1,26 @@
+import java.net.URL;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Vector;
+
+import com.google.gson.Gson;
+
+
+public class Values {
+	
+	private Vector<String> cards=new Vector<String>();
+	private String url="http://api.icndb.com/jokes/random/10" ;  
+	  
+	public static void main(String args[]){
+		URL urlObj=new URL("");
+		urlObj.
+		Gson gson = new Gson();
+		Object response;
+		Jsonproject jc = gson.fromJson()
+		HashMap<String, String> hm = new HashMap<String,String>();
+		for(Values v: jc.values){
+		  hm.put(v.getId(), v.getName());  
+
+
+}
+	}

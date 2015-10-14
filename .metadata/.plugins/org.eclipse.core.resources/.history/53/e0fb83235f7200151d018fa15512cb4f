@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class UnitTesting {
+	Shark s  = new Shark();
+	@Test
+	public void test() {
+		
+		assertTrue(s.kind instanceof String);
+	
+	}
+
+}

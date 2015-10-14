@@ -36,7 +36,6 @@ public class Percentage {
 	   }
 	
 	public static void main(String args[]){
-		
 		Percentage pe=new Percentage();
 		
         Scanner sc = new Scanner(System.in);

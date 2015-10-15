@@ -1,0 +1,11 @@
+
+public class Threadone extends Thread {
+	  
+	Threadone(){  
+	  
+	}  
+	public void run(){  
+	 
+	}  
+
+}

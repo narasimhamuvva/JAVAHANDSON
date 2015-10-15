@@ -1,0 +1,11 @@
+
+public class Threadtwo {
+	Threadtwo(){  
+		  
+	}  
+	public void run(){  
+	 
+	}  
+
+
+}

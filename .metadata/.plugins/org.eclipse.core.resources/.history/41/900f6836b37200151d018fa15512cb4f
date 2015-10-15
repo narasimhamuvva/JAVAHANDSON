@@ -1,0 +1,19 @@
+
+public class Threadtwo {
+	SharedThread s;
+	  
+	Threadtwo(SharedThread s){ 
+		this.s=s;
+	  
+	}  
+	public void run(){ 
+		s.calc(20);
+	 
+	}
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}  
+
+
+}

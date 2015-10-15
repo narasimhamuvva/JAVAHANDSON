@@ -2,7 +2,7 @@
 public class MyThread implements Runnable{
 	public void run()
 	{
-		System.out.println("My first Thread");
+		System.out.println("Hello World");
 	}
 public static void main(String args[])
 {

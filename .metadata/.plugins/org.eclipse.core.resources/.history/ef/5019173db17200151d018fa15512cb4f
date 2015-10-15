@@ -1,0 +1,11 @@
+
+public class Threadone extends Thread {
+	Table t;  
+	Threadone(Table t){  
+	this.t=t;  
+	}  
+	public void run(){  
+	t.printTable(100);  
+	}  
+
+}

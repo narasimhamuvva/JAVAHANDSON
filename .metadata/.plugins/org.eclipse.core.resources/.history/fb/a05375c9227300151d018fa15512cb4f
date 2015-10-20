@@ -1,0 +1,11 @@
+
+public class DbConnect {
+	private static volatile DbConnect instance;
+	//private DbConnect()
+	{}
+	public static DbConnect getinstance()
+	{
+		
+	}
+
+}

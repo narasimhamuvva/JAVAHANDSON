@@ -1,0 +1,20 @@
+
+public class School {
+	int English;
+	String Math;
+	public int getEnglish() {
+		return English;
+	}
+	public void setEnglish(int i) {
+		English = i;
+	}
+	public String getMath() {
+		return Math;
+	}
+	public void setMath(String math) {
+		Math = math;
+	}
+	
+
+
+}

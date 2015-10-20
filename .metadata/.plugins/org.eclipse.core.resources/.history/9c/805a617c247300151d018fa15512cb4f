@@ -1,0 +1,12 @@
+
+public class Main {
+	public static void main(String args[]){
+		new DbConnect();
+		DbConnect db=DbConnect.getinstance();
+		new DbConnect();
+		DbConnect db2=DbConnect.getinstance();
+		assert db==db2;
+		
+	}
+
+}

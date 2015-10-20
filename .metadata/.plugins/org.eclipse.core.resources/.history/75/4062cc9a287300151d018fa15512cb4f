@@ -1,0 +1,15 @@
+
+public class Main {
+	public static void main(String args[]){
+	    DbConnect db=DbConnect.getinstance();
+		DbConnect db2=DbConnect.getinstance();
+		if(db.equals(db2))
+		{
+			System.out.println("objects are equal");
+		}
+		}
+			
+		
+	}
+
+

@@ -1,0 +1,21 @@
+
+public class School {
+	int English;
+	int  Math;
+	public int getEnglish() {
+		return English;
+	}
+	public int setEnglish(int i) {
+		return English = i;
+		
+	}
+	public int getMath() {
+		return Math;
+	}
+	public int setMath(int math) {
+		return Math = math;
+	}
+	
+
+
+}

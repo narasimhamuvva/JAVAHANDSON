@@ -1,0 +1,26 @@
+
+public class School {
+	int English;
+	int  Math;
+	public int average;
+	public int getEnglish() {
+		return English;
+	}
+	public int setEnglish(int english) {
+		return English = english;
+		
+	}
+	public int getMath() {
+		return Math;
+	}
+	public int setMath(int math) {
+		return Math = math;
+	}
+	public School build()
+	{
+		average=(Math+English)/2;
+		return this;
+	}
+
+
+}
